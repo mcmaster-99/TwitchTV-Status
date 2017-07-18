@@ -1,8 +1,9 @@
-TwitchTV Status
-
-======
+===================
+TwitchTV Status App
+===================
+-----
 V 1.0
-======
+-----
 
 **Tools Used:**
 - HTML
