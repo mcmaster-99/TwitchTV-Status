@@ -1,0 +1,27 @@
+{
+  "name": "twitchapi",
+  "version": "1.0.0",
+  "description": "Displays the current status of a streamer.",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "twitch",
+    "tv",
+    "api"
+  ],
+  "author": "Bilal Hjiouaj",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "latest",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
+  }
+}
