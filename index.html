@@ -6,32 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="styles/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/style.css" type="text/css">
+
+    <div id="title-div">
+        <img id="title" src="https://fontmeme.com/permalink/170808/a098530ec2a4dfd2eb2a5accef575974.png">
+    </div>
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="box">
-      <h1 id="title">Twitch Streamers Status</h1>
-      <div class="row">
-        <div class="firstRow">
-          <div class="col-md-1 col-xs-3">
-            <b><u>Logo</u></b>
+    <div id="box">
+      <div id="rowHeader">
+          <div class="col-md-3 col-xs-3">
+            <b>Logo</b>
           </div>
-          <div class="col-md-1 col-xs-3">
-            <b><u>Streamer</u></b>
+          <div class="col-md-3 col-xs-3">
+            <b>Streamer</b>
           </div>
-          <div class="col-md-1 col-xs-3">
-            <b><u>Views</u></b>
+          <div class="col-md-3 col-xs-3">
+            <b>Views</b>
           </div>
-          <div class="col-md-1 col-xs-3">
-            <b><u>Status</u></b>
+          <div class="col-md-3 col-xs-3">
+            <b>Status</b>
           </div>
-        </div>
-      </div>
-      </table>
+      </div><!--row-->
+    </div><!--box-->
+  </div><!--container-fluid-->
+
+    <div class="button-container">
+        <button class="buttons" id="showAll" class="col-md-1 col-xs-3">
+            Show All
+        </button>
+
+        <button class="buttons" id="showOnline" class="col-md-1 col-xs-3">
+            Show Online
+        </button>
+
+        <button class="buttons" id="showOffline" class="col-md-1 col-xs-3">
+            Show Offline
+        </button>
+
+        <button class="buttons" id="nonExistent" class="col-md-1 col-xs-3">
+            Hide Non-existent
+        </button>  
     </div>
-  </div>
+
   <div id="copyright">
     <p>
       Copyright (c) 2017 | All rights reserved

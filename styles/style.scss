@@ -1,6 +1,76 @@
-$plain-background: black;
-$blue: red;
+@import url(https://fonts.googleapis.com/css?family=Saira+Semi+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
+// Font Variables
+$box-font: 'Share Tech Mono', monospace;
+$buttons-font: 'Saira Semi Condensed', sans-serif;
+$twitch-purple: #702A6F;
+
+
+
+// Styles
 body {
-	color: $blue;
+  background-size: 1500px 5000px;
+  background-repeat: no-repeat;
+}
+
+#title-div {
+	margin: 50px auto -30px auto;
+	text-align: center;
+}
+#title {
+	width: 50%;
+}
+
+#box {
+	background: linear-gradient($twitch-purple, white);
+	border: 5px solid white;
+	width: 500px;
+	height: auto;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 15px;
+	font-family: $box-font;
+}
+
+#rowHeader {
+	margin: 10px auto 50px auto;
+	font-size: 20px;
+}
+.row {
+	margin: 0 auto;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.button-container {
+	margin-top: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.buttons {
+	border: solid 2px $twitch-purple;
+	border-radius: 2px;
+	padding: 5px;
+	background: transparent;
+	font-family: $buttons-font;
+	font-weight: bold;
+	color: $twitch-purple;
+}
+.buttons:hover {
+	color: #5E0646;
+	padding: 5.5px;
+}
+
+#copyright p {
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  height: 5px;
 }

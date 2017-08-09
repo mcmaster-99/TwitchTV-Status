@@ -1,6 +1,12 @@
 ===================
 TwitchTV Status App
 ===================
+
+- What the application does:
+
+Displays the current status of Twitch streamers. The info is
+grabbed using the TwitchTV API. 
+
 -----
 V 1.0
 -----
@@ -15,7 +21,12 @@ V 1.0
 7. Git
 8. Github
 
-- What the application does:
+-----
+V 1.1
+-----
 
-Displays the current status of Twitch streamers. The info is
-grabbed using the TwitchTV API. 
+- Modified the container the holds the information.
+- Added buttons at the bottom of the info container.
+- Modified the title. Displayed above the container instead of inside.
+- Changed the overall layout to a simple white-purple theme. 
+- Changed the font of all text.
