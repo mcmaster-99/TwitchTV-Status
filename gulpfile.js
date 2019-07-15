@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 	gutil = require('gulp-util'),
 	sass = require('gulp-sass'),
-	coffee = require('gulp-coffee'),
 	uglify = require('gulp-uglify'),
 	concat = require('gulp-concat'),
 	connect = require('gulp-connect');
@@ -29,13 +28,6 @@ gulp.task('sass', function(){
 	.pipe(connect.reload())
 });
 
-gulp.task('coffee', function(){
-	gulp.src('scripts/hello.coffee')
-	.pipe(coffee({bare: true})
-		.on('error', gutil.log))
-	.pipe(gulp.dest('scripts'))
-});
-
 gulp.task('js', function(){
 	gulp.src(jsSource)
 	.pipe(uglify())
@@ -54,7 +46,7 @@ gulp.task('connect', function() {
 	connect.server({
 		root: '.',
 		livereload: true
-	})
+	});
 });
 
 gulp.task('html', function(){
@@ -62,4 +54,4 @@ gulp.task('html', function(){
 	.pipe(connect.reload())
 });
 
-gulp.task('default', ['coffee', 'js', 'sass', 'connect', 'watch', 'html']);
+gulp.task('default', ['js', 'sass', 'connect', 'watch', 'html']);

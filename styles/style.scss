@@ -9,10 +9,7 @@ $twitch-purple: #702A6F;
 
 
 // Styles
-body {
-  background-size: 1500px 5000px;
-  background-repeat: no-repeat;
-}
+
 
 #title-div {
 	margin: 50px auto -30px auto;
@@ -25,7 +22,7 @@ body {
 #box {
 	background: linear-gradient($twitch-purple, white);
 	border: 5px solid white;
-	width: 500px;
+	width: 600px;
 	height: auto;
 	margin: auto;
 	margin-top: 100px;
@@ -35,11 +32,12 @@ body {
 
 #rowHeader {
 	margin: 10px auto 50px auto;
-	font-size: 20px;
+	font-size: 15px;
 }
 .row {
 	margin: 0 auto;
 }
+
 
 .logo {
   width: 50px;
@@ -73,4 +71,258 @@ body {
   bottom: 5px;
   width: 100%;
   height: 5px;
+}
+
+
+@media only screen /* ### IPHONE 6/7 (PORTRAIT) ### */
+and (min-width: 375px)
+and (max-width: 667px)
+and (orientation: portrait) {
+
+	#title-div {
+		margin: 50px auto -30px auto;
+		text-align: center;
+	}
+	#title {
+		width: 75%;
+	}
+
+	#box {
+		background: linear-gradient($twitch-purple, white);
+		border: 5px solid white;
+		width: 350px;
+		height: auto;
+		margin: auto;
+		margin-top: 100px;
+		border-radius: 15px;
+		font-family: $box-font;
+	}
+
+	#rowHeader {
+		margin: 10px auto 50px auto;
+		font-size: 10px;
+	}
+
+	.logo {
+	  width: 20px;
+	  height: 20px;
+	  border-radius: 50%;
+	}
+	.text {
+		font-size: 12px;
+	}
+
+	.col-xs-1 {
+		width: 90px;
+	}
+
+	.button-container {
+		margin-top:30px;
+
+	}
+
+	.buttons {
+		border: solid 2px $twitch-purple;
+		padding: 5px;
+		background: transparent;
+		font-family: $buttons-font;
+		font-weight: bold;
+		font-size: 10px;
+		color: $twitch-purple;
+	}
+	.buttons:hover {
+		color: #5E0646;
+		padding: 5.5px;
+	}
+}
+
+
+
+@media only screen /* ### IPHONE 6/7 (LANDSCAPE) ### */
+and (min-width: 375px)
+and (max-width: 667px)
+and (orientation: landscape) {
+
+	#title-div {
+		margin: 30px auto -30px auto;
+		text-align: center;
+	}
+	#title {
+		width: 75%;
+	}
+
+	#box {
+		background: linear-gradient($twitch-purple, white);
+		border: 5px solid white;
+		width: 350px;
+		height: auto;
+		margin: auto;
+		margin-top: 60px;
+		border-radius: 15px;
+		font-family: $box-font;
+	}
+
+	#rowHeader {
+		margin: 10px auto 50px auto;
+		font-size: 10px;
+	}
+
+	.logo {
+	  width: 20px;
+	  height: 20px;
+	  border-radius: 50%;
+	}
+	.text {
+		font-size: 12px;
+	}
+
+	.col-xs-1 {
+		width: 90px;
+	}
+
+	.button-container {
+		margin-top:30px;
+
+	}
+
+	.buttons {
+		border: solid 2px $twitch-purple;
+		padding: 5px;
+		background: transparent;
+		font-family: $buttons-font;
+		font-weight: bold;
+		font-size: 10px;
+		color: $twitch-purple;
+	}
+	.buttons:hover {
+		color: #5E0646;
+		padding: 5.5px;
+	}
+}
+
+
+@media only screen /* ### IPHONE 6/7 PLUS (LANDSCAPE) ### */
+and (min-width: 414px)
+and (max-width: 736px)
+and (orientation: landscape) {
+
+	#title-div {
+		margin: 30px auto -30px auto;
+		text-align: center;
+	}
+	#title {
+		width: 75%;
+	}
+
+	#box {
+		background: linear-gradient($twitch-purple, white);
+		border: 5px solid white;
+		width: 350px;
+		height: auto;
+		margin: auto;
+		margin-top: 60px;
+		border-radius: 15px;
+		font-family: $box-font;
+	}
+
+	#rowHeader {
+		margin: 10px auto 50px auto;
+		font-size: 10px;
+	}
+
+	.logo {
+	  width: 20px;
+	  height: 20px;
+	  border-radius: 50%;
+	}
+	.text {
+		font-size: 12px;
+	}
+
+	.col-xs-1 {
+		width: 90px;
+	}
+
+	.button-container {
+		margin-top:30px;
+
+	}
+
+	.buttons {
+		border: solid 2px $twitch-purple;
+		padding: 5px;
+		background: transparent;
+		font-family: $buttons-font;
+		font-weight: bold;
+		font-size: 10px;
+		color: $twitch-purple;
+	}
+	.buttons:hover {
+		color: #5E0646;
+		padding: 5.5px;
+	}
+}
+
+
+
+@media only screen /* ### IPHONE SE (PORTRAIT) ### */
+and (min-width: 320px)
+and (max-width: 568px)
+and (orientation: portrait) {
+
+	#title-div {
+		margin: 30px auto -30px auto;
+		text-align: center;
+	}
+	#title {
+		width: 75%;
+	}
+
+	#box {
+		background: linear-gradient($twitch-purple, white);
+		border: 5px solid white;
+		width: 300px;
+		height: auto;
+		margin: auto;
+		margin-top: 60px;
+		border-radius: 15px;
+		font-family: $box-font;
+	}
+
+	#rowHeader {
+		margin: 10px auto 50px auto;
+		font-size: 10px;
+	}
+
+	.logo {
+	  width: 20px;
+	  height: 20px;
+	  border-radius: 50%;
+	}
+	.text {
+		font-size: 12px;
+	}
+
+	.col-xs-1 {
+		width: 70px;
+	}
+
+	.button-container {
+		margin-top:30px;
+
+	}
+
+	.buttons {
+		border: solid 2px $twitch-purple;
+		padding: 5px;
+		background: transparent;
+		font-family: $buttons-font;
+		font-weight: bold;
+		font-size: 10px;
+		color: $twitch-purple;
+	}
+	.buttons:hover {
+		color: #5E0646;
+		padding: 5.5px;
+	}
 }

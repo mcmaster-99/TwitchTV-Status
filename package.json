@@ -1,27 +1,30 @@
 {
-  "name": "twitchapi",
-  "version": "1.0.0",
-  "description": "Displays the current status of a streamer.",
+  "name": "weather-app",
+  "version": "1.2.0",
+  "description": "displays the live status of twitch streamers",
   "main": "script.js",
   "scripts": {
     "test": "test"
   },
-  "keywords": [
-    "twitch",
-    "tv",
-    "api"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcmaster-99/TwitchTV-Status.git"
+  },
   "author": "Bilal Hjiouaj",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.12",
-    "gulp": "latest",
+    "gulp": "^3.9.1",
     "gulp-coffee": "latest",
     "gulp-concat": "latest",
     "gulp-connect": "latest",
     "gulp-livereload": "^3.8.1",
-    "gulp-sass": "latest",
+    "gulp-sass": "^3.1.0",
     "gulp-uglify": "latest",
     "gulp-util": "latest"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mcmaster-99/TwitchTV-Status/issues"
+  },
+  "homepage": "https://github.com/mcmaster-99/TwitchTV-Status#readme"
 }
